@@ -23,8 +23,18 @@
       * [Configuración de VSCode](#Configuración de VSCode)
    * [Entorno de desarrollo con Anaconda
 ](#Entorno de desarrollo con Anaconda)
+      * [¿Qué son los ambientes virtuales?](#¿Qué son los ambientes virtuales?)
+      * [Instalar Conda a través de la terminal](#Instalar Conda a través de la terminal)
+      * [Conda: crear y actualizar ambientes](#Conda: crear y actualizar ambientes)
+      * [Conda: abrir VSCode Notebooks con tu ambiente creado](#Conda: abrir VSCode Notebooks con tu ambiente creado)
+      * [Conda: eliminar ambientes y librerías](#Conda: eliminar ambientes y librerías) 
+      * [Conda: comandos avanzados](#Conda: comandos avanzados)  
+      * [Acelerar la creación de ambientes virtuales con Mamba](#Acelerar la creación de ambientes virtuales con Mamba)  
+      * [Bonus: divide y vencerás](#Bonus: divide y vencerás) 
+      * [Entorno de desarrollo con Anaconda](#Entorno de desarrollo con Anaconda) 
    * [¿Qué sigue con estas herramientas?
 ](#¿Qué sigue con estas herramientas?)
+      * [Cómo seguir tu camino en ciencia de datos](#Cómo seguir tu camino en ciencia de datos) 
 
 
 Algebraic functions
