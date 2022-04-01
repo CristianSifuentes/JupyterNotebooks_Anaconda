@@ -9,11 +9,10 @@
 
    * [Introducción a las notebooks
 ](#introducción-a-las-notebooks)
-      * [¿En qué lugares programar para ciencia de datos?](#¿en-qué-lugares-programar-para ciencia-de-datos?)
-      * [Google Colab: primeros pasos](#google-colab:-primeros-pasos)
+      * [¿En qué lugares programar para ciencia de datos?](#¿En-qué-lugares-programar-para-ciencia-de-datos?)
+      * [Google Colab: primeros pasos](#google-colab-primeros-pasos)
       * [Utilizar Deepnote](#utilizar-deepnote)
       * [Introducción a las notebooks](#introducción-a-las-notebooks)
-      
    * [Configuración de VSCode
 ](#configuración-de-vscode)
       * [Instalar VSCode](#instalar-vscode)
@@ -59,8 +58,125 @@ Introducción a las notebooks
 Configuración de VSCode
 ============
 
+
+Instalar VSCode
+-----------
+
+Instalar WSL: usa Linux dentro de Windows
+-----------
+
+Agregar extensiones para VSCode
+-----------
+
+Uso de VSCode notebooks
+-----------
+
+Configuración de VSCode
+-----------
+
+
+
 Entorno de desarrollo con Anaconda
 ============
+
+¿Qué son los ambientes virtuales?
+-----------
+
+Instalar Conda a través de la terminal
+-----------
+
+Conda: crear y actualizar ambientes
+-----------
+
+Conda: abrir VSCode Notebooks con tu ambiente creado
+-----------
+
+Conda: eliminar ambientes y librerías
+-----------
+
+Conda: comandos-avanzados
+-----------
+
+```bash
+conda create --name py39 python=3.9 pandas
+```
+```bash
+conda activate py39 
+```
+```bash
+conda install boltons 
+```
+```bash
+conda install --chanel conda-forge boltons 
+```
+```bash
+conda list boltons 
+```
+```bash
+conda remove boltons 
+```
+```bash
+conda install --revision boltons 
+```
+```bash
+conda list --revision 
+```
+```bash
+conda install --revision 0
+```
+```bash
+conda env export
+```
+```bash
+conda env export --no-builds
+```
+```bash
+conda env export --from-history
+```
+```bash
+conda env export --from-history --file environment.yml
+```
+```bash
+conda env create --file environment.yml
+
+```
+Acelerar la creación de ambientes virtuales con Mamba
+-----------
+
+Bonus: divide y vencerás
+-----------
+
+
+Entorno de desarrollo con Anaconda
+-----------
+
+
+
+
+¿Qué sigue con estas herramientas?
+============
+
+
+Cómo seguir tu camino en ciencia de datos
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Notas:
