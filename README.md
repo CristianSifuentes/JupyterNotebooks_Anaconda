@@ -8,42 +8,59 @@
 
 
    * [Introducción a las notebooks
-](#Introducción a las notebooks)
-      * [¿En qué lugares programar para ciencia de datos?](#¿En qué lugares programar para ciencia de datos?)
-      * [Google Colab: primeros pasos](#Google Colab: primeros pasos)
-      * [Utilizar Deepnote](#Utilizar Deepnote)
-      * [Introducción a las notebooks](#Introducción a las notebooks)
+](#introducción-a-las-notebooks)
+      * [¿En qué lugares programar para ciencia de datos?](#¿en-qué-lugares-programar-para ciencia-de-datos?)
+      * [Google Colab: primeros pasos](#google-colab:-primeros-pasos)
+      * [Utilizar Deepnote](#utilizar-deepnote)
+      * [Introducción a las notebooks](#introducción-a-las-notebooks)
       
    * [Configuración de VSCode
-](#Configuración de VSCode)
-      * [Instalar VSCode](#Instalar VSCode)
-      * [Instalar WSL: usa Linux dentro de Windows](#Instalar WSL: usa Linux dentro de Windows)
-      * [Agregar extensiones para VSCode](#Agregar extensiones para VSCode)
-      * [Uso de VSCode notebooks](#Uso de VSCode notebooks)
-      * [Configuración de VSCode](#Configuración de VSCode)
+](#configuración-de-vscode)
+      * [Instalar VSCode](#instalar-vscode)
+      * [Instalar WSL: usa Linux dentro de Windows](#instalar-WSL:-usa-Linux-dentro-de-Windows)
+      * [Agregar extensiones para VSCode](#agregar-extensiones-para-vscode)
+      * [Uso de VSCode notebooks](#uso-de-vscode-notebooks)
+      * [Configuración de VSCode](#configuración-de-vscode)
    * [Entorno de desarrollo con Anaconda
-](#Entorno de desarrollo con Anaconda)
-      * [¿Qué son los ambientes virtuales?](#¿Qué son los ambientes virtuales?)
-      * [Instalar Conda a través de la terminal](#Instalar Conda a través de la terminal)
-      * [Conda: crear y actualizar ambientes](#Conda: crear y actualizar ambientes)
-      * [Conda: abrir VSCode Notebooks con tu ambiente creado](#Conda: abrir VSCode Notebooks con tu ambiente creado)
-      * [Conda: eliminar ambientes y librerías](#Conda: eliminar ambientes y librerías) 
-      * [Conda: comandos avanzados](#Conda: comandos avanzados)  
-      * [Acelerar la creación de ambientes virtuales con Mamba](#Acelerar la creación de ambientes virtuales con Mamba)  
-      * [Bonus: divide y vencerás](#Bonus: divide y vencerás) 
-      * [Entorno de desarrollo con Anaconda](#Entorno de desarrollo con Anaconda) 
+](#entorno-de-desarrollo-con-anaconda)
+      * [¿Qué son los ambientes virtuales?](#¿Qué-son-los-ambientes-virtuales?)
+      * [Instalar Conda a través de la terminal](#instalar-conda-a-través-de-la-terminal)
+      * [Conda: crear y actualizar ambientes](#Conda:-crear-y-actualizar-ambientes)
+      * [Conda: abrir VSCode Notebooks con tu ambiente creado](#Conda:-abrir-VSCode-Notebooks-con-tu-ambiente-creado)
+      * [Conda: eliminar ambientes y librerías](#Conda:-eliminar-ambientes-y-librerías) 
+      * [Conda:-comandos-avanzados](#Conda:-comandos-avanzados)  
+      * [Acelerar la creación de ambientes virtuales con Mamba](#Acelerar-la-creación-de-ambientes-virtuales-con-Mamba)  
+      * [Bonus: divide y vencerás](#Bonus:-divide-y-vencerás) 
+      * [Entorno de desarrollo con Anaconda](#Entorno-de-desarrollo-con-Anaconda) 
    * [¿Qué sigue con estas herramientas?
-](#¿Qué sigue con estas herramientas?)
-      * [Cómo seguir tu camino en ciencia de datos](#Cómo seguir tu camino en ciencia de datos) 
+](#¿Qué-sigue-con-estas-herramientas?)
+      * [Cómo seguir tu camino en ciencia de datos](#Cómo-seguir-tu-camino-en-ciencia-dedatos) 
 
 
-Algebraic functions
+Introducción a las notebooks
 ============
 
-
-Linear Functions
+¿En qué lugares programar para ciencia de datos?
 -----------
 
+Google Colab: primeros pasos
+-----------
+
+Utilizar Deepnote
+-----------
+
+Introducción a las notebooks
+-----------
+
+
+
+
+
+Configuración de VSCode
+============
+
+Entorno de desarrollo con Anaconda
+============
 
 
 Notas:
