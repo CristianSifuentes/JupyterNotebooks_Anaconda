@@ -143,6 +143,19 @@ conda env create --file environment.yml
 Acelerar la creación de ambientes virtuales con Mamba
 -----------
 
+```bash
+conda install --channel conda-forge mamba
+
+```
+```bash
+mamba --help
+
+```
+```bash
+mamba env create --file environment.yml
+
+```
+
 Bonus: divide y vencerás
 -----------
 
