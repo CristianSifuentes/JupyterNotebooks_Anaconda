@@ -11,6 +11,7 @@
 ](#introducción-a-las-notebooks)
       * [Lugares programar para ciencia de datos](#lugares-programar-para-ciencia-de-datos)
       * [Google Colab: primeros pasos](#google-colab-primeros-pasos)
+      * [Google Colab: ciencia de datos](#google-colab-ciencia-de-datos)
       * [Utilizar Deepnote](#utilizar-deepnote)
       * [Introducción a las notebooks](#introducción-a-las-notebooks)
    * [Configuración de VSCode
@@ -67,12 +68,39 @@ Las variables son persistentes (se conservan) entre celdas de código!. 🔥
 Para llamar a la línea de comandos, debemos usar primero un signo de admiración ! y luego un comando válido, por ejemplo !pwd o !pip install session-info.
 
 
+Google Colab: ciencia de datos
+-----------
+
+Puedes cargar archivos a tu notebook desde tu computadora, pero se borrarán una vez cierres tu notebook. También puedes vincular tu google drive para que tome los archivos desde ahí y de esta forma conservarlos.
+
+Colab está enfocado a trabajar con Python (también puede usar otros lenguajes) y ya trae librerías de ciencia de datos precargadas como:
+
+matplotlib: Generación de gráficos a partir de listas o arrays.
+
+numpy: Cómputo científico para la manipulación de vectores.
+
+pandas: Manipulación y análisis de datos de tablas y series temporales.
+
+scipy: Herramientas y algoritmos matemáticos.
+
+seaborn: Visualización de datos estadísticos.
+
+Colab también tiene fragmentos de código (parecido a la herramienta para insertar funciones de Excel) que te facilita la programación.
+Con ctrl + shift +p abres la paleta de comandos, si escribes shortcuts o atajos de teclado te mostrará una lista de todos los atajos que puedes ejecutar en Colab.
+
 Utilizar Deepnote
 -----------
 
-Introducción a las notebooks
------------
+Utilizar Deepnote.
 
+* Deepnote es un servicio en la nube basado en Jupyter Notebooks. No requiere configuración y tiene un trabajo a nivel de proyecto. Tiene colaboración en tiempo real, integración con múltiples Apps y tiene acceso a una terminal o línea de comandos integrada 😎.
+* Tiene también variables de entorno y permite publicar proyectos (para construir portafolio). 🎉
+* Podemos correr y agregar lo mismo que en Colab, pero además podemos subir archivos que se quedan siempre en el proyecto.
+Permite previsualizar los archivos CSV de manera muy bonita 😄.
+* Parte de lo poderoso de Deepnote es que podemos integrar muchas cosas 🔥.
+* No solo podemos agregar celdas de código y de texto, si no que en la opción de Bloque vienen muchos más tipos, como input, chart, dataframe sql, etc 🤯. Puede crear gráficas de manera automática sin código!
+* Para acceder a los atajos de teclado usamos Ctrl + i.
+* También es importante resaltar que tenemos una terminal integrada 🤖
 
 
 
@@ -195,39 +223,3 @@ Entorno de desarrollo con Anaconda
 Cómo seguir tu camino en ciencia de datos
 -----------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Notas:
-Puedes cargar archivos a tu notebook desde tu computadora, pero se borrarán una vez cierres tu notebook. También puedes vincular tu google drive para que tome los archivos desde ahí y de esta forma conservarlos.
-
-Colab está enfocado a trabajar con Python (también puede usar otros lenguajes) y ya trae librerías de ciencia de datos precargadas como:
-
-matplotlib: Generación de gráficos a partir de listas o arrays.
-
-numpy: Cómputo científico para la manipulación de vectores.
-
-pandas: Manipulación y análisis de datos de tablas y series temporales.
-
-scipy: Herramientas y algoritmos matemáticos.
-
-seaborn: Visualización de datos estadísticos.
-
-Colab también tiene fragmentos de código (parecido a la herramienta para insertar funciones de Excel) que te facilita la programación.
-Con ctrl + shift +p abres la paleta de comandos, si escribes shortcuts o atajos de teclado te mostrará una lista de todos los atajos que puedes ejecutar en Colab.
