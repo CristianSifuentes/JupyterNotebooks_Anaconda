@@ -22,13 +22,13 @@
       * [Uso de VSCode notebooks](#uso-de-vscode-notebooks)
    * [Entorno de desarrollo con Anaconda
 ](#entorno-de-desarrollo-con-anaconda)
-      * [¿Qué son los ambientes virtuales?](#¿Qué-son-los-ambientes-virtuales?)
+      * [¿Qué son los ambientes virtuales?](#que-son-los-ambientes-virtuales)
       * [Instalar Conda a través de la terminal](#instalar-conda-a-través-de-la-terminal)
       * [Crear y actualizar ambientes](#crear-y-actualizar-ambientes-conda)
       * [Abrir VSCode Notebooks con tu ambiente creado Conda](#abrir-vscode-notebooks-con-tu-ambiente-creado-conda)
       * [Eliminar ambientes y librerías](#eliminar-ambientes-y-librerías-conda) 
       * [Comandos avanzados Conda](#comandos-avanzados-conda)  
-      * [Acelerar la creación de ambientes virtuales con Mamba](#Acelerar-la-creación-de-ambientes-virtuales-con-Mamba)  
+      * [Acelerar la creación de ambientes virtuales con Mamba](#acelerar-la-creación-de-ambientes-virtuales-con-mamba)  
       * [Bonus: divide y vencerás](#Bonus:-divide-y-vencerás) 
       * [Entorno de desarrollo con Anaconda](#Entorno-de-desarrollo-con-Anaconda) 
    * [¿Qué sigue con estas herramientas?
@@ -244,6 +244,25 @@ Abrir VSCode Notebooks con tu ambiente creado Conda
 
 Eliminar ambientes y librerías Conda
 -----------
+
+Listar los ambientes:
+
+```bash
+$ conda env list
+```
+
+Para desinstalar un paquete:
+
+```bash
+$ conda remove [paquete]
+```
+
+Para eliminar un ambiente (el ambiente debe estar desactivado):
+
+```bash
+$ conda env remove --name [nombre de un ambiente]
+```
+
 
 Comandos avanzados Conda
 -----------
