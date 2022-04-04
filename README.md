@@ -144,8 +144,59 @@ Entorno de desarrollo con Anaconda
 ¿Qué son los ambientes virtuales?
 -----------
 
+* En la vida real, no vas a trabajar en un solo trabajo, si no en varios, y cada uno tendrá diferentes dependencias y requerimientos 🤔.
+* Cuando se actualizan o se cambia la configuración de las dependencias de un ambiente que tiene varios proyectos asociados puede haber errores 🛑.
+* Para poder separar proyectos, lo que hacemos es crear ambientes virtuales diferentes para cada proyecto. 🧠 Entonces la configuración y actualizaciones son para cada proyecto.
+* Ambiente virtual: Proyecto que puede tener sus propias dependencias, independientemente de las dependencias que tengan los demás proyectos (Scott Robinson y la gente de Real Python).
+
+
+
 Instalar Conda a través de la terminal
 -----------
+
+Conda: Programa diseñado para gestión de paquetes, dependencias y entorno para cualquier lenguaje: Python, R, Ruby, Lua, Scala, Java, JavaScript, etc. Además, es multiplataforma. 🖥️
+
+Para instalar conda debes instalar anaconda (versión completa, metapaquete de ciencia de datos) o miniconda (versión mínima). 🐍
+
+Para instalar conda:
+
+Anaconda | Individual Edition
+
+O bien hacer 
+
+
+```bash
+wget -0 anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh.
+```
+
+Para instalar hacemos 
+
+```bash
+bash anaconda.sh
+```
+🐍
+
+Para abrir notebooks usamos 
+
+```bash
+jupyter-notebooko
+```
+o bien
+
+```bash
+jupyterlab
+```
+
+Los notebooks que creas ahí también los puedes abrir en VSCode.
+
+Para abrir VSCode en la carpeta en el que te encuentras, usas 
+
+```bash
+code .
+```
+.
+
+
 
 Conda: crear y actualizar ambientes
 -----------
