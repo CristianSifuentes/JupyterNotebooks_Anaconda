@@ -24,10 +24,10 @@
 ](#entorno-de-desarrollo-con-anaconda)
       * [¿Qué son los ambientes virtuales?](#¿Qué-son-los-ambientes-virtuales?)
       * [Instalar Conda a través de la terminal](#instalar-conda-a-través-de-la-terminal)
-      * [Conda: crear y actualizar ambientes](#Conda:-crear-y-actualizar-ambientes)
-      * [Conda: abrir VSCode Notebooks con tu ambiente creado](#Conda:-abrir-VSCode-Notebooks-con-tu-ambiente-creado)
-      * [Conda: eliminar ambientes y librerías](#Conda:-eliminar-ambientes-y-librerías) 
-      * [Conda:-comandos-avanzados](#Conda:-comandos-avanzados)  
+      * [Crear y actualizar ambientes](#crear-y-actualizar-ambientes-conda)
+      * [Abrir VSCode Notebooks con tu ambiente creado Conda](#abrir-vscode-notebooks-con-tu-ambiente-creado-conda)
+      * [Eliminar ambientes y librerías](#eliminar-ambientes-y-librerías-conda) 
+      * [Comandos avanzados Conda](#comandos-avanzados-conda)  
       * [Acelerar la creación de ambientes virtuales con Mamba](#Acelerar-la-creación-de-ambientes-virtuales-con-Mamba)  
       * [Bonus: divide y vencerás](#Bonus:-divide-y-vencerás) 
       * [Entorno de desarrollo con Anaconda](#Entorno-de-desarrollo-con-Anaconda) 
@@ -196,18 +196,56 @@ code .
 ```
 .
 
-
-
-Conda: crear y actualizar ambientes
+Crear y actualizar ambientes Conda
 -----------
 
-Conda: abrir VSCode Notebooks con tu ambiente creado
+```bash
+$ conda create --name [nombre] [paquete]=[versión]
+```
+
+Si no hay se especifíca una versión, se instalará la última disponible.
+
+Para ver los paquetes(si no se especifican los paquetes, dará una lista de los ambientes virtuales):
+
+```bash
+$ conda list [paquete]
+```
+
+Para activar y desactivar los ambientes:
+
+
+```bash
+$ conda activate [nombre del ambiente] 
+```
+desactivar 
+
+```bash
+$ conda deactivate
+```
+Para actualizar paquetes:
+
+```bash
+$ conda update [paquete]
+```
+Para instalar un paquete específico:
+
+```bash
+$ conda install [paquete]=[versión]
+```
+Para clonar un ambiente:
+```bash
+$ conda --name [nuevo ambiente] --copy --clone [ambiente]
+```
+
+
+
+Abrir VSCode Notebooks con tu ambiente creado Conda
 -----------
 
-Conda: eliminar ambientes y librerías
+Eliminar ambientes y librerías Conda
 -----------
 
-Conda: comandos-avanzados
+Comandos avanzados Conda
 -----------
 
 ```bash
