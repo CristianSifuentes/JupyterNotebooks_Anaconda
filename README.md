@@ -17,10 +17,9 @@
    * [Configuración de VSCode
 ](#configuración-de-vscode)
       * [Instalar VSCode](#instalar-vscode)
-      * [Instalar WSL: usa Linux dentro de Windows](#instalar-WSL:-usa-Linux-dentro-de-Windows)
+      * [Windows Subsystem for Linux](#windows-subsystem-for-linux)
       * [Agregar extensiones para VSCode](#agregar-extensiones-para-vscode)
       * [Uso de VSCode notebooks](#uso-de-vscode-notebooks)
-      * [Configuración de VSCode](#configuración-de-vscode)
    * [Entorno de desarrollo con Anaconda
 ](#entorno-de-desarrollo-con-anaconda)
       * [¿Qué son los ambientes virtuales?](#¿Qué-son-los-ambientes-virtuales?)
@@ -91,8 +90,6 @@ Con ctrl + shift +p abres la paleta de comandos, si escribes shortcuts o atajos 
 Utilizar Deepnote
 -----------
 
-Utilizar Deepnote.
-
 * Deepnote es un servicio en la nube basado en Jupyter Notebooks. No requiere configuración y tiene un trabajo a nivel de proyecto. Tiene colaboración en tiempo real, integración con múltiples Apps y tiene acceso a una terminal o línea de comandos integrada 😎.
 * Tiene también variables de entorno y permite publicar proyectos (para construir portafolio). 🎉
 * Podemos correr y agregar lo mismo que en Colab, pero además podemos subir archivos que se quedan siempre en el proyecto.
@@ -104,7 +101,6 @@ Permite previsualizar los archivos CSV de manera muy bonita 😄.
 
 
 
-
 Configuración de VSCode
 ============
 
@@ -112,17 +108,33 @@ Configuración de VSCode
 Instalar VSCode
 -----------
 
-Instalar WSL: usa Linux dentro de Windows
+Editores de código: Enfocados a multiples lenguajes. Se pueden potencial con extensiones o plugins. Por lo general son gratuitos. Mejor este 😄. Tenemos Pycharm VSCode, Atom, etc.
+IDE (entornos de desarrollo integrado): Enfocado a un solo lenguaje y seguimiento a un solo proyecto. Por lo general son de pago 💸
+
+Windows Subsystem for Linux
 -----------
+Windows Subsystem for Linux es una capa de compatibilidad desarrollada por Microsoft para correr ejecutables de Linux nativamente en Windows 10 y Windows Server 2019. A partir de junio de 2019 está disponible WSL versión 2, el cual incorpora cambios importantes, como el uso de un núcleo Linux real.​
 
 Agregar extensiones para VSCode
 -----------
 
+* Hay muchas extensiones para VSCode que hacen trabajar con datos más cómodo. ☁️
+* Se pueden instalar todas las extensiones directamente desde VSCode 😄.
+* Es recomendable activar la sincronización automática en la nube, para que siempre puedas tener tu entorno de trabajo en cualquier lugar. Lo puedes contectar con tu cuenta de GitHub 🤖
+* Hay extension para Python que incluye muchas funcionalidades 🔥.
+* MagicPython sirve mucho para darle formato a Python y que sea más legible.
+* Las extensiones de Icon sirven para diferenciar tipos de archivos. 📁
+* Rainbow Brackets sirve para cambiar los colores de los paréntesis y no tener errores 🌈.
+* Remote Development te descarga múltiples extensiones que te sirven trabajar de manera remota. 🌎
+
 Uso de VSCode notebooks
 -----------
 
-Configuración de VSCode
------------
+* Esto es un nuevo estilo de Notebook, integrado dentro de VSCode 🤯.
+* Puedes abrir VSCode en una carpeta específica para ver todos los archivos dentro (y solo esos). Menos distracción que tener todo abierto con WSL. 😆
+* Podemos correr los archivos .py directamente en la terminal dando click en ▶️.
+* Con las extensiones que instalamos, podemos darle formato de manera automática a nuestro código 🐍.
+* Dentro de los Jupyter Notebook en VSCode podemos usar todas estas extensiones 💕. La extensión de los Notebooks es .ipynb. Podemos exportar los notebooks a texto plano!.
 
 
 
