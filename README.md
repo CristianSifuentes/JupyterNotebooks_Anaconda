@@ -24,15 +24,15 @@
       * [Virtual environments](#virtual-environments)
       * [Install Conda through the terminal](#install-conda-through-the-terminal)
       * [Create and update environments Conda](#create-and-update-environments-conda)
-      * [Abrir VSCode Notebooks con tu ambiente creado Conda](#abrir-vscode-notebooks-con-tu-ambiente-creado-conda)
-      * [Eliminar ambientes y librerías](#eliminar-ambientes-y-librerías-conda) 
-      * [Comandos avanzados Conda](#comandos-avanzados-conda)  
-      * [Acelerar la creación de Virtual environments con Mamba](#acelerar-la-creación-de-ambientes-virtuales-con-mamba)  
-      * [Divide y vencerás](#divide-y-vencerás) 
-      * [Development environment with Anaconda](#Entorno-de-desarrollo-con-Anaconda) 
-   * [¿Qué sigue con estas herramientas?
-](#¿Qué-sigue-con-estas-herramientas?)
-      * [Cómo seguir tu camino en ciencia de datos](#Cómo-seguir-tu-camino-en-ciencia-dedatos) 
+      * [Open VSCode Notebooks with your environment created Conda](#open-vscode-notebooks-with-your-environment-created-conda)
+      * [Delete Conda environments and libraries](#delete-conda-environments-and-libraries) 
+      * [Conda advanced commands](#conda-advanced-commands)  
+      * [Speed ​​up the creation of virtual environments with Mamba](#speed-​​up-the-creation-of-virtual-environments-with-mamba)  
+      * [Divide and conquer](#divide-and-conquer) 
+      * [Development environment with Anaconda](#development-environment-with-anaconda) 
+   * [What is next with these tools
+](#what-is-next-with-these-tools)
+      * [How to get on your way in data science](#how-to-get-on-your-way-in-data-science) 
 
 
 Introduction to notebooks
@@ -238,10 +238,10 @@ $ conda --name [nuevo ambiente] --copy --clone [ambiente]
 ```
 
 
-Abrir VSCode Notebooks con tu ambiente creado Conda
+Open VSCode Notebooks with your environment created Conda
 -----------
 
-Eliminar ambientes y librerías Conda
+Delete Conda environments and libraries
 -----------
 
 List the environments:
@@ -263,7 +263,7 @@ $ conda env remove --name [nombre de un ambiente]
 ```
 
 
-Comandos avanzados Conda
+Conda advanced commands
 -----------
 
 ```bash
@@ -309,7 +309,9 @@ conda env export --from-history --file environment.yml
 conda env create --file environment.yml
 
 ```
-Acelerar la creación de Virtual environments con Mamba
+
+
+Speed ​​up the creation of virtual environments with Mamba
 -----------
 
 ```bash
@@ -325,7 +327,7 @@ mamba env create --file environment.yml
 
 ```
 
-Divide y vencerás
+Divide and conquer
 -----------
 
 
@@ -333,12 +335,10 @@ Development environment with Anaconda
 -----------
 
 
-
-
-¿Qué sigue con estas herramientas?
+What is next with these tools
 ============
 
 
-Cómo seguir tu camino en ciencia de datos
+How to get on your way in data science?
 -----------
 
