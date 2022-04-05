@@ -7,39 +7,38 @@
 ## Jupyter Notebooks - Anaconda 
 
 
-   * [Introducción a las notebooks
-](#introducción-a-las-notebooks)
-      * [Lugares programar para ciencia de datos](#lugares-programar-para-ciencia-de-datos)
-      * [Google Colab: primeros pasos](#google-colab-primeros-pasos)
-      * [Google Colab: ciencia de datos](#google-colab-ciencia-de-datos)
-      * [Utilizar Deepnote](#utilizar-deepnote)
-      * [Introducción a las notebooks](#introducción-a-las-notebooks)
-   * [Configuración de VSCode
-](#configuración-de-vscode)
-      * [Instalar VSCode](#instalar-vscode)
+   * [Introduction to notebooks
+](#introduction-to-notebooks)
+      * [Places to program for data science](#places-to-program-for-data-science)
+      * [Google Colab: Getting Started](#google-colab-getting-started)
+      * [Google Colab: Data Science](#google-colab-data-science)
+      * [Use Deepnote](#use-deepnote)
+   * [VSCode Settings
+](#vscode-settings)
+      * [Install VSCode](#install-vscode)
       * [Windows Subsystem for Linux](#windows-subsystem-for-linux)
-      * [Agregar extensiones para VSCode](#agregar-extensiones-para-vscode)
-      * [Uso de VSCode notebooks](#uso-de-vscode-notebooks)
-   * [Entorno de desarrollo con Anaconda
-](#entorno-de-desarrollo-con-anaconda)
-      * [Ambientes virtuales](#ambientes-virtuales)
-      * [Instalar Conda a través de la terminal](#instalar-conda-a-través-de-la-terminal)
-      * [Crear y actualizar ambientes](#crear-y-actualizar-ambientes-conda)
+      * [Add extensions for VSCode](#add-extensions-for-vscode)
+      * [Using VSCode notebooks](#using-vscode-notebooks)
+   * [Development environment with Anaconda
+](#development-environment-with-anaconda)
+      * [Virtual environments](#virtual-environments)
+      * [Install Conda through the terminal](#install-conda-through-the-terminal)
+      * [Create and update environments Conda](#create-and-update-environments-conda)
       * [Abrir VSCode Notebooks con tu ambiente creado Conda](#abrir-vscode-notebooks-con-tu-ambiente-creado-conda)
       * [Eliminar ambientes y librerías](#eliminar-ambientes-y-librerías-conda) 
       * [Comandos avanzados Conda](#comandos-avanzados-conda)  
-      * [Acelerar la creación de ambientes virtuales con Mamba](#acelerar-la-creación-de-ambientes-virtuales-con-mamba)  
+      * [Acelerar la creación de Virtual environments con Mamba](#acelerar-la-creación-de-ambientes-virtuales-con-mamba)  
       * [Divide y vencerás](#divide-y-vencerás) 
-      * [Entorno de desarrollo con Anaconda](#Entorno-de-desarrollo-con-Anaconda) 
+      * [Development environment with Anaconda](#Entorno-de-desarrollo-con-Anaconda) 
    * [¿Qué sigue con estas herramientas?
 ](#¿Qué-sigue-con-estas-herramientas?)
       * [Cómo seguir tu camino en ciencia de datos](#Cómo-seguir-tu-camino-en-ciencia-dedatos) 
 
 
-Introducción a las notebooks
+Introduction to notebooks
 ============
 
-Lugares programar para ciencia de datos
+Places to program for data science
 -----------
 
 There are many platforms to work in Data Science, it is recommended to use a UNIX-based Operating System using Linux, MacOS or WSL on Windows, in editors there are VSCode, PyCharm, Deepnote, Google Colab, and the one we will use Jupyter, all based on Notebooks that They allow you to execute pieces of code, in which you can write a few lines of code, test them, make sure they are correct and continue with another piece, there you can also add code, equations, graphs, rich text, etc.
@@ -49,7 +48,7 @@ Notebooks Vs Scripts
 Both are useful, although the Scripts are more direct, the Notebooks allow you to see what you do, as you do it, in these you can take care of experimenting and prototyping your script and finally pass it to a Script when it is ready and be sure that everything works as expected
 
 
-Google Colab: primeros pasos
+Google Colab: Getting Started
 -----------
 
 It is a cloud-based tool that allows you to work on notebooks, and they are saved in your Google Drive account 😃.
@@ -69,7 +68,7 @@ Variables are persistent (preserved) between cells of code! 🔥
 To call the command line, we must first use an exclamation mark ! and then a valid command, for example !pwd or !pip install session-info.
 
 
-Google Colab: ciencia de datos
+Google Colab: Data Science
 -----------
 
 You can upload files to your notebook from your computer, but they will be deleted once you close your notebook. You can also link your google drive to take the files from there and thus keep them.
@@ -89,7 +88,7 @@ Colab is focused on working with Python (you can also use other languages) and a
 Colab also has code snippets (similar to Excel's insert function tool) that make programming easy.
 With ctrl + shift +p you open the command palette, if you write shortcuts or keyboard shortcuts it will show you a list of all the shortcuts that you can execute in Colab.
 
-Utilizar Deepnote
+Use Deepnote
 -----------
 
 * Deepnote is a cloud service based on Jupyter Notebooks. It requires no configuration and has project-level work. It has real-time collaboration, integration with multiple Apps and has access to a built-in terminal or command line 😎.
@@ -102,10 +101,10 @@ It allows to preview the CSV files in a very nice way 😄.
 * It is also important to note that we have an integrated terminal 🤖
 
 
-Configuración de VSCode
+VSCode Settings
 ============
 
-Instalar VSCode
+Install VSCode
 -----------
 
 Code editors: Focused on multiple languages. They can be potential with extensions or plugins. They are usually free. Better this one 😄. We have Pycharm VSCode, Atom, etc.
@@ -116,7 +115,7 @@ Windows Subsystem for Linux
 
 Windows Subsystem for Linux is a compatibility layer developed by Microsoft to run Linux executables natively on Windows 10 and Windows Server 2019. As of June 2019, WSL version 2 is available, which incorporates important changes, such as the use of a kernel actual Linux.
 
-Agregar extensiones para VSCode
+Add extensions for VSCode
 -----------
 
 * There are many extensions for VSCode that make working with data more comfortable. ☁️
@@ -128,116 +127,115 @@ Agregar extensiones para VSCode
 * Rainbow Brackets is used to change the colors of the brackets and not have errors 🌈.
 * Remote Development downloads multiple extensions that help you work remotely. 🌎
 
-Uso de VSCode notebooks
+Using VSCode notebooks
 -----------
 
-* Esto es un nuevo estilo de Notebook, integrado dentro de VSCode 🤯.
-* Puedes abrir VSCode en una carpeta específica para ver todos los archivos dentro (y solo esos). Menos distracción que tener todo abierto con WSL. 😆
-* Podemos correr los archivos .py directamente en la terminal dando click en ▶️.
-* Con las extensiones que instalamos, podemos darle formato de manera automática a nuestro código 🐍.
-* Dentro de los Jupyter Notebook en VSCode podemos usar todas estas extensiones 💕. La extensión de los Notebooks es .ipynb. Podemos exportar los notebooks a texto plano!.
+* This is a new style of Notebook, built right into VSCode 🤯.
+* You can open VSCode in a specific folder to see all the files inside (and only those). Less distraction than having everything open with WSL. 😆
+* We can run the .py files directly in the terminal by clicking on ▶️.
+* With the extensions we install, we can automatically format our code 🐍.
+* Within the Jupyter Notebook in VSCode we can use all these extensions 💕. The extension for Notebooks is .ipynb. We can export notebooks to plain text!
 
 
-
-Entorno de desarrollo con Anaconda
+Development environment with Anaconda
 ============
 
-Ambientes virtuales
+Virtual environments
 -----------
 
-* En la vida real, no vas a trabajar en un solo trabajo, si no en varios, y cada uno tendrá diferentes dependencias y requerimientos 🤔.
-* Cuando se actualizan o se cambia la configuración de las dependencias de un ambiente que tiene varios proyectos asociados puede haber errores 🛑.
-* Para poder separar proyectos, lo que hacemos es crear ambientes virtuales diferentes para cada proyecto. 🧠 Entonces la configuración y actualizaciones son para cada proyecto.
-* Ambiente virtual: Proyecto que puede tener sus propias dependencias, independientemente de las dependencias que tengan los demás proyectos (Scott Robinson y la gente de Real Python).
+* In real life, you will not work in one job, but in several, and each one will have different dependencies and requirements 🤔.
+* When updating or changing the configuration of the dependencies of an environment that has several associated projects, there may be errors 🛑.
+* In order to separate projects, what we do is create different virtual environments for each project. 🧠 So the configuration and updates are for each project.
+* Virtual environment: Project that can have its own dependencies, regardless of the dependencies that other projects have (Scott Robinson and the Real Python people).
 
 
-
-Instalar Conda a través de la terminal
+Install Conda through the terminal
 -----------
 
-Conda: Programa diseñado para gestión de paquetes, dependencias y entorno para cualquier lenguaje: Python, R, Ruby, Lua, Scala, Java, JavaScript, etc. Además, es multiplataforma. 🖥️
+Conda: Program designed to manage packages, dependencies and environments for any language: Python, R, Ruby, Lua, Scala, Java, JavaScript, etc. Also, it is cross-platform. 🖥️
 
-Para instalar conda debes instalar anaconda (versión completa, metapaquete de ciencia de datos) o miniconda (versión mínima). 🐍
+To install conda you must install anaconda (full version, data science metapackage) or miniconda (minimum version). 🐍
 
-Para instalar conda:
+To install conda:
 
 Anaconda | Individual Edition
 
-O bien hacer 
-
+or else do
 
 ```bash
 wget -0 anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh.
 ```
 
-Para instalar hacemos 
+To install we do
 
 ```bash
 bash anaconda.sh
 ```
 🐍
 
-Para abrir notebooks usamos 
+To open notebooks we use
 
 ```bash
 jupyter-notebooko
 ```
-o bien
+O well
 
 ```bash
 jupyterlab
 ```
 
-Los notebooks que creas ahí también los puedes abrir en VSCode.
+The notebooks you create there can also be opened in VSCode.
 
-Para abrir VSCode en la carpeta en el que te encuentras, usas 
+To open VSCode in the folder you're in, you use.
 
 ```bash
 code .
 ```
-.
 
-Crear y actualizar ambientes Conda
+Create and update environments Conda
 -----------
 
 ```bash
 $ conda create --name [nombre] [paquete]=[versión]
 ```
 
-Si no hay se especifíca una versión, se instalará la última disponible.
 
-Para ver los paquetes(si no se especifican los paquetes, dará una lista de los ambientes virtuales):
+If no version is specified, the latest available will be installed.
+
+To see the packages (if packages are not specified, it will list the virtual environments):
 
 ```bash
 $ conda list [paquete]
 ```
 
-Para activar y desactivar los ambientes:
+To activate and deactivate scenes:
 
 
 ```bash
 $ conda activate [nombre del ambiente] 
 ```
-desactivar 
+deactivate
+ 
 
 ```bash
 $ conda deactivate
 ```
-Para actualizar paquetes:
+To update packages:
 
 ```bash
 $ conda update [paquete]
 ```
-Para instalar un paquete específico:
+To install a specific package:
 
 ```bash
 $ conda install [paquete]=[versión]
 ```
-Para clonar un ambiente:
+
+To clone an environment:
+
 ```bash
 $ conda --name [nuevo ambiente] --copy --clone [ambiente]
 ```
-
 
 
 Abrir VSCode Notebooks con tu ambiente creado Conda
@@ -246,19 +244,19 @@ Abrir VSCode Notebooks con tu ambiente creado Conda
 Eliminar ambientes y librerías Conda
 -----------
 
-Listar los ambientes:
+List the environments:
 
 ```bash
 $ conda env list
 ```
 
-Para desinstalar un paquete:
+To uninstall a package:
 
 ```bash
 $ conda remove [paquete]
 ```
 
-Para eliminar un ambiente (el ambiente debe estar desactivado):
+To delete an environment (the environment must be disabled):
 
 ```bash
 $ conda env remove --name [nombre de un ambiente]
@@ -311,7 +309,7 @@ conda env export --from-history --file environment.yml
 conda env create --file environment.yml
 
 ```
-Acelerar la creación de ambientes virtuales con Mamba
+Acelerar la creación de Virtual environments con Mamba
 -----------
 
 ```bash
@@ -331,7 +329,7 @@ Divide y vencerás
 -----------
 
 
-Entorno de desarrollo con Anaconda
+Development environment with Anaconda
 -----------
 
 
